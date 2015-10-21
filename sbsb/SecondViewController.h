@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  sbsb
 //
 //  Created by 栾有数 on 15/10/15.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ThirdViewController.h"
-@interface ViewController : UIViewController
+@interface SecondViewController : UIViewController
+
 
 @end
-

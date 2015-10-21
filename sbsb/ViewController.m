@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    ThirdViewController * vc = [[ThirdViewController alloc] init];
+    vc.update = ^(UIColor * color){
+        self.view.backgroundColor = [UIColor grayColor];
+    };
 }
 
 - (void)didReceiveMemoryWarning {
